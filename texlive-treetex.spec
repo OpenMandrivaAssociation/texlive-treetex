@@ -53,3 +53,16 @@ is discussed in an accompanying paper (written using LaTeX
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081115-2
++ Revision: 757088
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081115-1
++ Revision: 719804
+- texlive-treetex
+- texlive-treetex
+- texlive-treetex
+

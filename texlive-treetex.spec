@@ -1,12 +1,12 @@
-# revision 15878
+# revision 28176
 # category Package
 # catalog-ctan /macros/plain/contrib/treetex
-# catalog-date 2008-11-15 20:35:55 +0100
+# catalog-date 2012-01-20 11:26:32 +0100
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-treetex
-Version:	20081115
-Release:	2
+Version:	20120120
+Release:	1
 Summary:	Draw trees
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/treetex
@@ -36,12 +36,8 @@ is discussed in an accompanying paper (written using LaTeX
 %{_texmfdistdir}/tex/plain/treetex/classes.tex
 %{_texmfdistdir}/tex/plain/treetex/l_pic.tex
 %{_texmfdistdir}/tex/plain/treetex/treetex.tex
-%doc %{_texmfdistdir}/doc/plain/treetex/epodd.bbl
-%doc %{_texmfdistdir}/doc/plain/treetex/epodd.dvi
 %doc %{_texmfdistdir}/doc/plain/treetex/epodd.tex
 %doc %{_texmfdistdir}/doc/plain/treetex/readme
-%doc %{_texmfdistdir}/doc/plain/treetex/tree_doc.bbl
-%doc %{_texmfdistdir}/doc/plain/treetex/tree_doc.dvi
 %doc %{_texmfdistdir}/doc/plain/treetex/tree_doc.tex
 
 #-----------------------------------------------------------------------
@@ -53,16 +49,3 @@ is discussed in an accompanying paper (written using LaTeX
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 20081115-2
-+ Revision: 757088
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20081115-1
-+ Revision: 719804
-- texlive-treetex
-- texlive-treetex
-- texlive-treetex
-

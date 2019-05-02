@@ -5,8 +5,8 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-treetex
-Version:	20180303
-Release:	2
+Version:	20190228
+Release:	1
 Summary:	Draw trees
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/treetex

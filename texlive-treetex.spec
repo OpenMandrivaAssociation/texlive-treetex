@@ -1,6 +1,6 @@
 Name:		texlive-treetex
 Version:	28176
-Release:	1
+Release:	2
 Summary:	Draw trees
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/plain/contrib/treetex
